@@ -94,7 +94,7 @@ img {
   .row {
     max-width: 100%;
     margin-top: 0;
-    padding: 8px;
+    padding: 5px;
   }
 
   #lezioni .row, #why .row {
@@ -130,5 +130,5 @@ img {
   #why .row img {
     padding: 20px
   }
-  
+
 }
