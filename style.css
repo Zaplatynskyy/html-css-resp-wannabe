@@ -82,10 +82,14 @@ img {
     box-sizing: border-box;
   }
 
+  body {
+    font-size: 12px;
+  }
+
   .row {
     max-width: 100%;
     margin-top: 0;
-    padding-top: 10px;
+    padding: 8px;
   }
 
   #lezioni .row {
@@ -107,7 +111,7 @@ img {
   }
 
   img {
-    max-height: 120px;
+    max-height: 80px;
   }
   
   
