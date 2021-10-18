@@ -74,6 +74,51 @@ img {
 
 /* MEDIA QUERY */
 
+/* formattazione media quety per larghezze inferiori ai 780px */
+
+@media screen and ( max-width: 779px ) {
+  
+  /* COMMONS */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-size: 14px;
+    margin: 0;
+  }
+
+  h1 {
+    margin-bottom: 10px;
+  }
+
+  img {
+    height: 100px;
+  }
+
+  .row {
+    max-width: 100%;
+    margin-top: 0;
+    padding: 10px;
+  }
+
+  /* prima sezione lezioni */
+  #lezioni .row, #why .row {
+    background-color: #ececb4;
+  }
+  
+  #lezioni .row > .left, #lezioni .row > .right {
+    width: calc(50% - 20px);
+    padding: 10px;
+  }
+
+}
+
+
+
+/* formattazione media quety per larghezze inferiori ai 420px */
 @media screen and ( max-width: 419px ) {
 
   /* COMMONS */
@@ -132,3 +177,4 @@ img {
   }
 
 }
+
