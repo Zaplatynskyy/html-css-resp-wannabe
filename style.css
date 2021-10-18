@@ -87,11 +87,6 @@ img {
 
   body {
     font-size: 14px;
-    margin: 0;
-  }
-
-  h1 {
-    margin-bottom: 10px;
   }
 
   img {
@@ -106,7 +101,7 @@ img {
 
   /* prima sezione lezioni */
   #lezioni .row, #why .row {
-    background-color: #ececb4;
+    background-color: #eeeec1;
   }
   
   #lezioni .row > .left, #lezioni .row > .right {
@@ -114,6 +109,28 @@ img {
     padding: 10px;
   }
 
+  /* seconda sezione steps */
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    padding: 10px;
+  }
+
+  /* terza sezione why */
+  #why .row > .first, #why .row > .second, #why .row > .third {
+    width: calc(100% / 3);
+    margin-top: 0;
+    padding: 10px;
+    float: left;
+  }
+
+  #why .row img {
+    padding: 25px;
+}
+
+  hr {
+    display: none;
+  }
 }
 
 
