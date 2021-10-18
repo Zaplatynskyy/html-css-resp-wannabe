@@ -76,13 +76,26 @@ img {
 
 @media screen and ( max-width: 419px ) {
 
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
   .row {
     max-width: 100%;
+    margin-top: 0;
+    padding-top: 10px;
+  }
+
+  #lezioni .row {
+    background-color: #f2f2cd;
   }
 
   #lezioni .row>.left,
   #lezioni .row>.right {
     width: 100%;
+    margin: 10px 0;
     float: none;
 }
 
@@ -97,4 +110,6 @@ img {
     max-height: 120px;
   }
   
+  
+
 }
